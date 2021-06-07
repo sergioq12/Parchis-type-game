@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="parchis.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <title>Parchis - The Game - Player Selection</title>
+</head>
+<body>
+    <div id="page">
+        <!-- Here we insert the players into the game -->
+        <div class="player-selection">
+            <h2 id="insert-players">Insert the players!</h2>
+            <form>
+                <div id="players-input">
+                    <span class="players-text">Player 1:    </span><input type="text" id="p1" placeholder="Player 1"><br>
+                    <span class="players-text">Player 2:    </span><input type="text" id="p2" placeholder="Player 2"><br>
+                    <div id="button-to-takeoff"><button type="submit" id="start-game-button">Start Game</button></div>
+                </div>
+            </form>
+        </div>
+        <!-- Here we are going to put how to play the game, to give the user a better understanding 
+        of our parchis.-->
+        <div class="rule-section">
+            <h2>Rules and Gameplay: </h2>
+            <ol>
+                <li>Every player is going to have a turn.</li>
+                <li>When a player initiates its turn, the player will throw two dices.</li>
+                <li>The player can choose between moving the added result of the dices or<br>
+                    move one of the results of one of the two dices.
+                </li>
+                <li>If the player moves to a tile where the other player is, the other player <br> will move back to the start.</li>
+                <li>The player that gets to the finish line, wins!</li>
+                <li>The user has to get the exact number to get into the end tile. If the player selects <br>
+                    a move that is greater to the end, then the player will not move, and it will lose the turn.</li>
+            </ol>
+        </div>
+        <div id="main-game">
+
+        </div>
+    </div>
+
+    <script src="parchis-ingame.js"></script>
+</body>
+</html>

@@ -1,0 +1,242 @@
+/*
+Initially let's do a style for whole elements, then we can focus on more specific aspects of every file.
+*/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+h3 {
+  font-size: 3.5rem;
+}
+
+h4 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 2.5rem;
+}
+
+li {
+  font-size: 2rem;
+}
+
+a, button {
+  color: white;
+  text-decoration: none;
+}
+
+.page-home {
+  background: radial-gradient(#525252, #131313);
+  min-height: 100vh;
+}
+
+.page {
+  background: radial-gradient(#525252, #131313);
+  min-height: 140vh;
+}
+
+
+#page {
+  background: radial-gradient(#525252, #131313);
+  min-height: 140vh;
+}
+
+.page-ingame {
+  background: radial-gradient(#525252, #131313);
+  min-height: 100vh;
+}
+
+#game-title {
+  font-size: 15rem;
+  text-align: center;
+  padding-top: 20rem;
+  margin-bottom: 5rem;
+}
+
+.game-description {
+  margin: 8rem 0rem;
+  text-align: center;
+}
+
+#start-button {
+  margin-top: 15rem;
+  font-size: 5rem;
+  border-radius: 1rem;
+  padding: 0.8rem 2rem;
+  background: #f54538;
+}
+
+.player-selection {
+  padding-top: 5rem;
+  position: relative;
+  width: 80%;
+  margin: auto;
+}
+
+#insert-players {
+  font-size: 10rem;
+  text-align: center;
+}
+
+#players-input {
+  position: absolute;
+  left: 30%;
+  margin: 5rem;
+  margin-top: 1rem;
+  margin-left: 3rem;
+}
+
+#players-input input {
+  margin-top: 5rem;
+  font-size: 3rem;
+}
+
+#players-input button {
+  margin-left: 12rem;
+  margin-top: 4rem;
+  font-size: 4rem;
+  border-radius: 1rem;
+  padding: 0.8rem 2rem;
+  background: #f54538;
+}
+
+.players-text {
+  font-size: 3rem;
+}
+
+.rule-section {
+  margin-top: 38rem;
+}
+
+.rule-section h2, #currentPlayer-text{
+  font-size: 9rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.rule-section ol {
+  margin-top: 8rem;
+}
+
+.rule-section li {
+  margin-top: 2rem;
+  font-size: 3rem;
+  margin-left: 49rem;
+}
+
+.board-div {
+  display: flex;
+  margin-left: 2rem;
+  position: relative;
+}
+
+.board-div img {
+  position: relative;
+}
+
+#blue-dot {
+  position: absolute;
+  left: 0.6%;
+  top: 93%;
+  width: 3%;
+}
+
+#board {
+  width: 65.6%;
+}
+
+#red-dot {
+  position: absolute;
+  left: 3.6%;
+  top: 93%;
+  width: 3%;
+}
+
+#button-throwing-dices {
+  margin-left: 12rem;
+  margin-top: 5rem;
+  font-size: 4rem;
+  border-radius: 1rem;
+  padding: 0.8rem 2rem;
+  background: #f54538;
+}
+
+.dices-div {
+  margin-top: 5rem;
+}
+
+#dice1 {
+  width: 40%;
+  margin-top: 5rem;
+  margin-left: 16rem;
+  display: inline;
+}
+
+#dice2 {
+  width: 40%;
+  margin-top: 5rem;
+  margin-left: 16rem;
+  display: inline;
+}
+
+.decision-dices-div {
+  margin-top: 5rem;
+  margin-left: 10rem;
+}
+
+.decision-dices-div button {
+  margin-left: 3rem;
+  font-size: 4rem;
+  border-radius: 1rem;
+  padding: 0.8rem 2rem;
+  background: #f54538;
+}
+
+#currentPlayer-text-p1 {
+  color: #3453ff;
+  font-size: 15rem;
+  font-family: "Bebas Neue", cursive;
+}
+
+#currentPlayer-text-p2 {
+  color: #f54538;
+  font-size: 15rem;
+  font-family: "Bebas Neue", cursive;
+}
+
+#winner-title {
+  font-size: 12rem;
+  text-align: center;
+}
+
+#go-back {
+  font-size: 5rem;
+  margin-top: 5rem;
+  text-align: center;
+}
+
+#goback-button {
+  margin-top: 5rem;
+  margin-left: 80rem;
+  align-items: center;
+  font-size: 4rem;
+  border-radius: 1rem;
+  padding: 0.8rem 2rem;
+  background: #f54538;
+}
+
+
+
