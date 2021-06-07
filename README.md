@@ -8,3 +8,5 @@ is going to return to the start of the board.
 It is a project done with JavaScript, HTML, and CSS. 
 
 It was a project for a class. However, I feel that was fun.
+
+The way to use it is to open the parchis-home.html file.
